@@ -1,5 +1,5 @@
 pipeline {
-  agent {label ,'Java' }
+  agent any
     stages {
         stage('checkout') {
  
