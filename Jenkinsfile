@@ -17,7 +17,7 @@ pipeline {
  
             steps {
 	    
-	    cp '/var/lib/jenkins/target/hello-world-war-1.0.0.war /opt/tomcat/apache-tomcat-10.0.17/webapps'
+	    cp '/var/lib/jenkins/workspace/pipe/target/hello-world-war-1.0.0.war /opt/tomcat/apache-tomcat-10.0.17/webapps'
     }
 }
     }
